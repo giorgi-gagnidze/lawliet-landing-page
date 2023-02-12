@@ -459,3 +459,61 @@ html {
   line-height: 24px;
   color: #4f4f4f;
 }
+
+/* Personal requ0est styling */
+
+.personal-request-container {
+  padding-left: 165px;
+  display: flex;
+}
+.request-text-container {
+  max-width: 821px;
+}
+
+.request-heading {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.5px;
+  color: #2d2f30;
+  margin-top: 37px;
+}
+
+.request-text {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  color: #4f4f4f;
+  margin-top: 34px;
+}
+
+.request-button {
+  width: 219px;
+  height: 64px;
+  background-color: #094b72;
+  border-radius: 8px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  color: #f9f8f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17.5px;
+  margin-top: 34px;
+  margin-bottom: 40px;
+}
+
+.request-image-container {
+  margin-top: 41px;
+  margin-left: 31px;
+}
+
+.request-image-container > img {
+  border-radius: 0px 0px 0px 40px;
+}
