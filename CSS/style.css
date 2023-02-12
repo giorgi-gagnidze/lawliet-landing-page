@@ -364,3 +364,98 @@ html {
   letter-spacing: 0.003em;
   color: #ffffff;
 }
+
+/* Testimonial section styling */
+
+.testimonial-container {
+  background-color: #f2f7ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-heading {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.5px;
+  color: #2d2f30;
+  margin-top: 61px;
+}
+.testimonial-container-inside {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 89px;
+  margin-top: 51px;
+}
+
+.testimonials-container-small {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+}
+
+.testimonial-text-container {
+  max-width: 540px;
+  height: 220px;
+  padding: 32px 32px 0 32px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  text-align: center;
+  position: relative;
+}
+
+.small-container {
+  position: absolute;
+  background-color: #ffffff;
+  width: 16px;
+  height: 16px;
+  bottom: -13px;
+  left: 50%;
+  transform: rotate(45deg) translate(-50%);
+}
+
+.testimonial-text-heading {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #151617;
+}
+.testimonial-text {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #4f4f4f;
+}
+.testimonial-profile-container {
+  display: flex;
+  gap: 16px;
+}
+.profile-img {
+  border-radius: 50%;
+}
+.profile-text-container {
+  font-family: "Inter";
+}
+
+.profile-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #151617;
+}
+
+.profile-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4f4f4f;
+}
