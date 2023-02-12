@@ -10,17 +10,70 @@ html {
 
 .main-container {
 }
+
 .main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 165px 32px 165px;
 }
+
 .header-logo-container {
+  display: flex;
+  align-items: center;
+  gap: 13px;
 }
+
 .header-logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: #094b72;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 12px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .header-logo-text {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 1.5px;
+  color: #2d2f30;
 }
+
 .header-nav-container {
+  display: flex;
+  gap: 122px;
 }
+
 .nav-menu {
+  display: flex;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 23px;
+  letter-spacing: 1.5px;
+  color: #2d2f30;
+  gap: 56px;
+  text-transform: uppercase;
+  list-style: none;
 }
 .nav-menu-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 23px;
+  letter-spacing: 1.5px;
+  color: #2d2f30;
+}
+
+.header-nav-container > img {
+  cursor: pointer;
 }
