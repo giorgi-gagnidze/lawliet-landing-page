@@ -10,6 +10,7 @@ html {
 
 .main-container {
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .main-header {
@@ -287,20 +288,79 @@ html {
 }
 
 .count-container {
+  background-image: url(../Images/bg.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
 .count-heading-container {
+  text-align: center;
+  margin-top: 53px;
 }
+
 .count-heading {
+  font-family: "Playfair Display";
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.005em;
+  color: #ffffff;
 }
+
 .count-title {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
 }
+
+.count-digit-container {
+  display: flex;
+  margin-top: 48px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 55px;
+}
+
 .count-left {
 }
-.count-digit {
-}
-.count-text {
-}
+
 .count-center {
 }
+
 .count-right {
+}
+
+.count {
+  text-align: center;
+  width: 255px;
+}
+
+.count-line {
+  border-right: 1px solid #ffffff;
+  height: 96px;
+  margin: 0 15px;
+  opacity: 0.4;
+}
+
+.count-digit {
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  color: #ffffff;
+}
+
+.count-text {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.003em;
+  color: #ffffff;
 }
