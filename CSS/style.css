@@ -9,6 +9,7 @@ html {
 }
 
 .main-container {
+  max-width: 1440px;
 }
 
 .main-header {
@@ -76,4 +77,139 @@ html {
 
 .header-nav-container > img {
   cursor: pointer;
+}
+
+.hero-container {
+  padding-left: 155px;
+  position: relative;
+}
+
+.news-container {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  max-width: 434px;
+  background-color: #e7f6ff;
+  border-radius: 26.5px;
+  margin-top: 94px;
+}
+
+.news-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 86px;
+  height: 28px;
+  background: #094b72;
+  border-radius: 26.5px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Plus Jakarta Sans";
+  margin-left: 6px;
+}
+
+.news-text {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 36px;
+  color: #193e6c;
+}
+
+.hero-heading {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #094b72;
+  max-width: 791px;
+  margin-top: 16px;
+}
+.hero-text {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 158%;
+  letter-spacing: 0.5px;
+  color: #4f4f4f;
+  max-width: 590px;
+  margin-top: 46px;
+  margin-left: 7px;
+}
+.hero-button {
+  width: 190px;
+  height: 80px;
+  margin-top: 42px;
+  background-color: #094b72;
+  border-radius: 8px;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140.5%;
+  letter-spacing: 0.08em;
+  color: #f9f8f9;
+  text-transform: uppercase;
+}
+.client-text {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 140.5%;
+  letter-spacing: 0.04em;
+  color: #8b8c8c;
+  margin-top: 115px;
+}
+.client-container {
+  margin-top: 34px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 33px;
+  justify-content: space-between;
+  max-width: 236px;
+  border-bottom: 46px;
+}
+
+.item-2,
+.item-4 {
+  justify-self: end;
+}
+
+.hero-img {
+  position: absolute;
+  top: -150px;
+  right: 10px;
+  z-index: -1;
+}
+
+.name-container {
+  width: 382px;
+  height: 114px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  position: absolute;
+  right: 210px;
+  bottom: -45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #33475b;
+}
+
+.profession {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 36px;
+  color: #87898c;
 }
